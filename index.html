@@ -1,0 +1,41 @@
+<template>
+  <div>
+    <!--顶部-->
+    <div class="header">
+        <img src="../lib/img/1.png" alt="">
+        <span class="mui-icon mui-icon-contact"></span>
+        <span class="mui-icon mui-icon-search"></span>
+        <span class="mui-icon mui-icon-download"></span>
+    </div>
+  </div>    
+</template>
+<style>
+.header{
+  background:#4a576c;
+  width: 100%;
+  }
+  .header img{
+    padding-left: 20px;
+    padding-top:6px;
+    padding-bottom:1px;
+  }
+  .mui-icon.mui-icon-download,.mui-icon.mui-icon-search
+  ,.mui-icon.mui-icon-contact {
+    font-size:35px ;
+    color: white;
+   }
+   span{
+     float:right;
+     position: relative;
+     top: 8px;
+     margin-right: 15px;
+   }
+</style>
+
+<script>
+export default {
+    name:"jy-header"
+}
+</script>
+
+
